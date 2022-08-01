@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: url(assets/img/image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.todo__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+  color: #fff;
+}
+
+.todo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+}
+
+.todo__create-form {
+  display: flex;
+  gap: 5px;
+}
+
+.todo__create-input {
+  flex-grow: 1;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.todo__create-button {
+  border: none;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #07788b;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo__create-button:hover {
+  background-color: #0a9dbd;
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  background-color: #0abd64;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0c8347;
+}
+
+.button__delete {
+  border: none;
+  border-radius: 4px;
+  background-color: #9b0000;
+  padding: 0.5rem .7rem;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button__delete:hover {
+  background-color: #740505;
+}
